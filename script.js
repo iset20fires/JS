@@ -105,3 +105,31 @@ console.log(s.slice(1,4));
 let sp = [10, 20, 30, 40, 50];
 sp.splice(1,1,200);
 console.log(sp);
+
+
+
+
+
+
+
+function AddNumbers(){
+    let a = 10;
+    let b = 100;
+    console.log(a + b);
+    document.getElementById('heading-two').innerText = (a+b);
+    document.getElementById('para1').innerHTML = '<h1>This is final sum</h1>';
+    }
+    document.getElementById('btn1').addEventListener('click', AddNumbers);
+    let firstName = 'Harry';
+    let password = 'potter'
+    document.getElementById('form1').addEventListener('submit', function(event){
+    if(document.getElementById('username').value == firstName &&
+    document.getElementById('password').value == password ){
+    console.log('Login success')
+    }
+    else{
+    event.preventDefault();
+    }
+    })
+    document.querySelector('.div1 #id1')
+    
